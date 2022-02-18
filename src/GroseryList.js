@@ -54,9 +54,9 @@ render() {
             </div>
             <ul>
                 {this.state.groceryList.map((iteam, index) =>
-                 (<li onClick={this.crosseWord} key={index}>
+                (<li onClick={this.crosseWord} key={index}>
                      {/*<img src={check} width= "40px"/> */}
-                     {iteam}</li>))}
+                    {iteam}</li>))}
                 
             </ul>
             <div className="conteiner">
